@@ -1,0 +1,56 @@
+html, body {
+    width: 100%;
+    margin: 0px;
+}
+.conteiner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#childs {
+    width: 90%;
+    color: #fff;
+    font-size: 50px;
+    margin: 10px;
+}
+.child1 {
+    height: 100px;
+    background-color: blue;
+    align-items: center;
+}
+.child2 {
+    height: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.child3 {
+    background-color: blue;
+    height: 200px;
+}
+.granChild1 {
+    background-color: red;
+    width: 49%;
+    height: 96%;
+}
+.child4 {
+    background-color: blue;
+}
+.granChild2 {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bisneto {
+    width: 100%;
+    height: 46%;
+    background-color: green;
+}
